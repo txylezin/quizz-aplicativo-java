@@ -69,7 +69,7 @@ body{
   width: 100%;
   border-radius: 1px solid lightgrey;
   display: flex;
-  allign-items: center;
+  align-items: center;
   padding: 0 30px;
   border-radius: 5px 5px 0 0;
   font-size: 20px;
@@ -92,7 +92,7 @@ body{
 .info_box .buttons{
   height: 60px;
   display: flex;
-  allign-items: center;
+  align-items: center;
   justify-content: flex-end;
   padding: 0 30px;
   border-top: 1px solid lightgrey;
@@ -130,7 +130,7 @@ body{
   background: #fff;
   border-radius: 5px 5px 0 0;
   display: flex;
-  allgn-items: center;
+  align-items: center;
   justify-center: space-between;
   box-shadow: 0px 3px 5px 1px rgba(0,0,0,0.1);
 }
@@ -148,7 +148,7 @@ quiz_box title{
   padding: 0 0px;
   border-radius: 5px;
   display: flex;
-  allgn-items: center;
+  align-items: center;
   justify-content: space-between;
   width: 145px;
 }
@@ -167,7 +167,7 @@ quiz_box title{
   color: #fff;
   border-radius: 5px;
   line-height: 30px;
-  text-allgn: center;
+  text-align: center;
   background: #343a40;
   border: 1px solid #343a40;
   user-select: none;
@@ -206,6 +206,44 @@ section .option_list .option{
   cursor: pointer;
   transition: all 0.3s ease;
   display: flex;
-  allgn-items: center;
+  align-items: center;
   justify-content: space-between;
+}
+
+section .option_list .option:last-child{
+  margin-bottom: 0px;
+}
+
+section .option_list .option:hover{
+  color: #004005;
+  background: #cce5ff;
+  border: 1px solid #b8daff;
+}
+
+section .option_list .option.correct{
+  color: #155724;
+  background: #d4edda;
+  border: 1px solid #c3e6cb;
+}
+
+section .option_list .option.incorrect{
+  color: #721c24;
+  background: #f8d7da;
+  border: 1px solid #f5c6cb;
+}
+
+section .option_list .option.disabled{
+  pointer-events: none;
+}
+
+section .option_list .option .icon{
+  height: 26px;
+  width: 26px;
+  border: 2px solid transparent;
+  border-radius: 50%;
+  text-align: center;
+  font-size: 13px;
+  pointer-events: none;
+  transition: all 0.3s ease;
+  line-weight: 24px;
 }
