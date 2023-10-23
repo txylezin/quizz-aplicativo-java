@@ -2,7 +2,7 @@
 let questions = [
   {
     numb: 1,
-    questions: "Qual país inventou o chuveiro elétrico?",
+    questions: "Qual país inventou o chuveiro eletrico?",
     answer: "Brasil",
     options: [
       "Estados Unidos",
