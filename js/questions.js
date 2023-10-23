@@ -2,57 +2,57 @@
 let questions = [
   {
     numb: 1,
-    questions: "Quem foi a única pessoa na história a receber o Prêmio Nobel em áreas científicas diferentes?",
-    answer: "Marie Curiee",
+    questions: "Qual país inventou o chuveiro elétrico?",
+    answer: "Brasil",
     options: [
-      "Albert Einstein",
-      "Marie Curiee",
-      "Stephen Hawking",
-      "Línus Pauling",
+      "Estados Unidos",
+      "Alemanha",
+      "Rússia",
+      "Brasil",
     ]
   },
   {
     numb: 2,
-    question: "Qual a seleção que ganhou mais copas ?",
-    answer: "Brasil",
+    question: "Qual o país mais populoso do mundo?",
+    answer: "Índia",
     options: [
-      "Alemanha",
-      "Brasil",
-      "Italia",
-      "Chile"
+      "Rússia",
+      "Estados Unidos",
+      "Índia",
+      "China"
     ]
   },
   {
     numb: 3,
-    question: "Qual o nome do rei do futebol Pelé?",
-    answer: "Edson Arantes do Nascimento",
+    question: "Em que ano o Brasil passou a ser chamado de Brasil?",
+    answer: "1527",
     options: [
-      "Francisco Silva",
-      "Edson Arantes do Nascimento",
-      "Milton Nascimento",
-      "Galvão Bueno"
+      "1474",
+      "1566",
+      "1519",
+      "1527"
     ]
   },
   {
     numb: 4,
-    question: "Quantos Paulistas tem o Corinthians?",
-    answer: "30",
+    question: "Qual o maior planeta do Sistema Solar?",
+    answer: "Júpiter",
     options: [
-      "12",
-      "21",
-      "30",
-      "33"
+      "Saturno",
+      "Sol",
+      "Mercúrio",
+      "Júpiter"
     ]
   },
   {
     numb: 5,
-    question: "Qual o maior ídolo da história do Corinthians?",
-    answer: "Cassio Ramos",
+    question: "Quantos estados tem o Brasil?",
+    answer: "26",
     options: [
-      "Neto",
-      "Danilo",
-      "Cassio Ramos",
-      "Roger Guedes"
+      "27",
+      "25",
+      "26",
+      "28"
     ]
   },
   // you can uncomment the below codes and make duplicate as more as you want to add question
