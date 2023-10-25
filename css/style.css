@@ -215,7 +215,7 @@ section .option_list .option:last-child{
 }
 
 section .option_list .option:hover{
-    color: #FFFAFA;
+    color: #000000;
     background: #D3D3D3;
     border: 1px solid #000000;
 }
@@ -302,7 +302,7 @@ footer button{
 }
 
 footer button:hover{
-    background: #FFFAFA;
+    background: #696969;
 }
 
 footer button.show{
