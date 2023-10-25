@@ -222,13 +222,13 @@ section .option_list .option:hover{
 
 section .option_list .option.correct{
     color: #000000;
-    background: #D3D3D3;
+    background: #00FF00;
     border: 1px solid #000000;
 }
 
 section .option_list .option.incorrect{
-    color: #FFFFFF;
-    background: #D3D3D3;
+    color: #000000;
+    background: #FF0000;
     border: 1px solid #000000;
 }
 
