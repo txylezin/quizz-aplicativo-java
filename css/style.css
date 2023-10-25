@@ -221,9 +221,9 @@ section .option_list .option:hover{
 }
 
 section .option_list .option.correct{
-    color: #FFFAFA;
+    color: #000000;
     background: #D3D3D3;
-    border: 1px solid #FFFAFA;
+    border: 1px solid #000000;
 }
 
 section .option_list .option.incorrect{
